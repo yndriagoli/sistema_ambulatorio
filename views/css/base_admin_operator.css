@@ -1,0 +1,115 @@
+
+
+#header-ad-op {
+	background: #FFF;
+	height: 70px;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 0em .0em .2em #D8DEE2;
+}
+#header-ad-op ul {
+	padding-top: 1em;
+}
+#header-ad-op ul li {
+	display: inline;
+}
+
+#header-ad-op ul li:nth-child(1) {
+	margin-left: 1em;
+	font-size: 1.6rem;
+}
+
+#header-ad-op ul li:nth-child(2) {
+	color: #0FA0CE;
+	float: right;
+	margin-top: -1em;
+	margin-right: 1.5em;
+	width: 3em;
+	height: 60px;
+
+}
+
+#header-ad-op ul li:nth-child(2):hover   {
+
+}
+#header-ad-op ul li:nth-child(2):hover i {
+	color: #222;
+
+}
+
+#header-ad-op ul li:nth-child(2) i {
+	font-size: 3rem;
+	color: #0FA0CE;
+	margin: .5em auto;
+}
+
+
+#header-ad-op ul li a strong {
+	color: #0FA0CE;
+	font-family: 'Open Sans bold';
+	font-size: 1.6em;
+	margin-left: 1em;
+}
+#header-ad-op ul li a {
+	text-decoration: none;
+	color: #222;
+}
+/*************color  del menu*************/
+#menu-vertical{
+	background: #fff;
+	border-bottom:1px solid #D8DEE2;
+	border-right: 1px solid #d8dee2;
+	cursor: pointer;
+	float: left;
+	font-size: 14px;
+	line-height: 34px;
+	width: 17%;
+	padding: 1em 0;
+}
+/*************estilos de las li-lu-a del menu*************/
+#menu-vertical li
+{
+	list-style-type: none;
+	border-bottom:1px solid #D8DEE2;
+	width: 100%;
+	color: #0FA0CE;
+	transition: .4s;
+}
+
+#menu-vertical li.activo {
+	color: #222;
+}
+
+#menu-vertical li a {
+	  font-family: 'Open Sans bold', sans-serif;
+	  text-decoration: none;
+	  font-size: .8em;
+}
+
+#menu-vertical li i {
+	margin-left: 1em;
+	margin-right: .4em;
+}
+
+#menu-vertical ul li ul{
+	width: 100%;
+	margin-left: 0;
+	background: #FFF;
+	display: none;
+	opacity: 0;
+	transition: 0.6s ease-in-out;
+}
+
+#menu-vertical ul li ul.show {
+	display: block;
+	opacity: 1;
+}
+
+
+#menu-vertical ul li ul li {
+	border: none;
+	width: 100%;
+}
+
+#menu-vertical ul li ul li:hover {
+	background: #D8DEE2;
+}
